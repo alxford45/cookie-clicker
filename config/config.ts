@@ -12,7 +12,7 @@ export const devServer: DevServer = {
   filename: "main.js"
 };
 export const TSLoaderRules: RuleSetRule = {
-  test: /\.ts?$/,
+  test: /\.tsx?$/,
   use: "ts-loader",
   exclude: /node_modules/,
   resolve: {
