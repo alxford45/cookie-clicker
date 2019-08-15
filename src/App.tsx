@@ -5,8 +5,8 @@ const App: React.FC = () => {
   const onClick = () => setCount(x => x + 1);
   return (
     <React.Fragment>
-      <div>count</div>
-      <button>click me!</button>);
+      <div>{count}</div>
+      <button onClick={onClick}>click me!</button>
     </React.Fragment>
   );
 };
