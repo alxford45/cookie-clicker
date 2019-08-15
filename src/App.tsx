@@ -1,5 +1,5 @@
 import React from "react";
 
-const App: React.FC = () => <div>hello world</div>;
+const App: React.FC = () => <button>click me!</button>;
 
 export default App;
