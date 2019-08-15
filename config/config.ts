@@ -3,7 +3,7 @@ import { DevServer, RuleSetRule, Mode } from "./config.types";
 
 export const MODE: Mode = "development";
 export const NAME: string = "web";
-export const ENTRY: string = "./src/index.ts";
+export const ENTRY: string = "./src/index.tsx";
 
 export const devServer: DevServer = {
   host: "localhost",
