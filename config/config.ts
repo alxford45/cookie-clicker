@@ -16,7 +16,7 @@ export const TSLoaderRules: RuleSetRule = {
   use: "ts-loader",
   exclude: /node_modules/,
   resolve: {
-    extensions: [".ts", ".js"]
+    extensions: [".ts", ".js", ".tsx"]
   }
 };
 export const htmlWebpackPlugin: HtmlWebpackPlugin = new HtmlWebpackPlugin({
